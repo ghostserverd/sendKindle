@@ -38,7 +38,7 @@ class SendKindle:
     parser = None
     files = []
 
-    conffile = os.path.expanduser('~/.config/sendKindle/sendKindle.cfg')
+    conffile = os.path.expanduser('/config/sendKindle.cfg')
     sample_conf = '''[Default]
 smtp_server = smtp.gmail.com
 smtp_port = 465
